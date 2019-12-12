@@ -14,7 +14,7 @@ public class QueryCapabilities {
         //open prologfile and parse query
         try {
             //prologFile
-            jip.consultFile("test2.pl");
+            jip.consultFile("plFiles/test2.pl");
             //actual query: who does dave hate?
             queryTerm = jip.getTermParser().parseTerm("hate(dave, X).");
             //actual query: who is a woman?
